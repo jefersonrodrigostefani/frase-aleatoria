@@ -1,5 +1,7 @@
 # Gerador de Frases Aleatórias 🎲
 
+<img width="1273" height="880" alt="Captura de Tela 2025-10-02 às 21 11 21" src="https://github.com/user-attachments/assets/e85c3567-9f0e-4278-9720-aa12d7167d08" />
+
 Este é um projeto simples que gera frases aleatórias baseadas no dia do mês informado pelo usuário.
 
 ## Funcionalidades
