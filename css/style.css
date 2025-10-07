@@ -1,0 +1,189 @@
+/*
+* Arquivo de estilos do projeto
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    font-family: "Courier New", monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background: #1a1a2e;
+    border-radius: 15px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+    max-width: 800px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.header {
+    background: #16213e;
+    padding: 30px;
+    text-align: center;
+    border-bottom: 3px solid #0f3460;
+}
+
+.header h1 {
+    color: #e94560;
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.header p {
+    color: #64ccc5;
+    font-size: 1.1em;
+}
+
+.tabs {
+    display: flex;
+    background: #0f3460;
+    border-bottom: 2px solid #16213e;
+}
+
+.tab {
+    flex: 1;
+    padding: 15px;
+    text-align: center;
+    color: #aaa;
+    cursor: pointer;
+    transition: all 0.3s;
+    border-right: 1px solid #16213e;
+}
+
+.tab:last-child {
+    border-right: none;
+}
+
+.tab.active {
+    background: #1a1a2e;
+    color: #64ccc5;
+}
+
+.tab:hover {
+    background: #16213e;
+}
+
+.console {
+    background: #0a0a0a;
+    color: #00ff00;
+    padding: 30px;
+    min-height: 300px;
+    font-size: 0.95em;
+    line-height: 1.8;
+}
+
+.separator {
+    color: #666;
+    margin: 15px 0;
+}
+
+.welcome {
+    color: #00ff00;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.input-line {
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+}
+
+.input-line input {
+    background: #1a1a1a;
+    border: 1px solid #333;
+    color: #00ff00;
+    padding: 8px 12px;
+    font-family: "Courier New", monospace;
+    font-size: 0.95em;
+    margin-left: 10px;
+    border-radius: 4px;
+    width: 100px;
+}
+
+.input-line input:focus {
+    outline: none;
+    border-color: #00ff00;
+}
+
+.stars {
+    color: #ffaa00;
+    margin: 15px 0;
+}
+
+.fortune {
+    color: #00ccff;
+    font-style: italic;
+    margin: 15px 0;
+    padding: 10px;
+    background: #0f0f0f;
+    border-left: 3px solid #00ccff;
+}
+
+.execution-time {
+    color: #888;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+.button-container {
+    padding: 30px;
+    text-align: center;
+    background: #16213e;
+}
+
+.btn-sorte {
+    background: linear-gradient(135deg, #e94560 0%, #c72c48 100%);
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0 5px 15px rgba(233, 69, 96, 0.4);
+    font-family: "Courier New", monospace;
+}
+
+.btn-sorte:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(233, 69, 96, 0.6);
+}
+
+.btn-sorte:active {
+    transform: translateY(0);
+}
+
+.msgErro span {
+    font-size: 16px;
+    color: tomato;
+}
+
+@media (max-width: 600px) {
+    .header h1 {
+        font-size: 1.5em;
+    }
+
+    .console {
+        font-size: 0.85em;
+        padding: 20px;
+    }
+
+    .btn-sorte {
+        padding: 12px 30px;
+        font-size: 1em;
+    }
+}
