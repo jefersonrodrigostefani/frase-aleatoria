@@ -29,6 +29,10 @@ Este é um projeto simples que gera frases aleatórias baseadas no dia do mês i
 ```
 frase-aleatoria/
 │
+|__ css
+   |__style.css
+|__ js
+   |__ script.js   
 ├── index.html
 └── README.md
 ```
